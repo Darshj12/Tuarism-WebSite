@@ -1,0 +1,7 @@
+<?php 
+function calculate(int $Weight,float $Height){
+    $BMI= $Weight / ($Height*$Height);
+    return $BMI;
+} 
+echo calculate (45,2.5);
+?>

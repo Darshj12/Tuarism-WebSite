@@ -1,0 +1,16 @@
+<?php
+$sal=10000;
+$hra;
+$gross_sal;
+if($sal>10000)
+{
+$hra=($sal*5)/100;
+$gross_sal=$sal+$hra;
+}
+else
+{
+$hra=($sal*10)/100;
+$gross_sal=$sal+$hra;
+}
+echo " The Gross Salary is $gross_sal";
+?>

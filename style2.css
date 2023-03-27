@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.contact .content p{
+    font-weight: 500;
+    color: rgb(201, 187, 187);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contact-info .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contact-info .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contact-info .box .text h1{
+    font-weight: 500;
+    color: rgb(252, 0, 0);
+
+}
+.container .contact-info .box .text p{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
